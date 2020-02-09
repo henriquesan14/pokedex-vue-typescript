@@ -16,6 +16,13 @@ export default new Vuex.Store({
       keys: [
         "pokemon.pokemonSelecionado",
       ]
+    }),
+    storage({
+      namespace: "favorites",
+      storage: window.localStorage,
+      keys: [
+        "pokemon.favorites",
+      ]
     })
   ]
 })

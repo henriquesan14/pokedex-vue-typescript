@@ -60,7 +60,6 @@ export default class TilePoke extends Vue {
     #types{
         padding: 5px;
         margin: 5px 2px;
-        opacity: 0.7;
         border-radius: 15px;
         background-color:rgba(255,255,255, 0.3);
         text-align: center;
