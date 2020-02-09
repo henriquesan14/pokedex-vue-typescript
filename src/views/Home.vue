@@ -1,5 +1,6 @@
 <template>
     <div class="home">
+      <h2>Pokedex</h2>
       <input v-model="search" @keyup="onSearch" placeholder="Pesquise um pokemon..."/>
       <div class="list-pokemons">
         <TilePoke :pokemon="pokemon" v-for="(pokemon, index) in pokemonsFiltered" :key="index"></TilePoke>
@@ -48,13 +49,14 @@ export default Home;
 
 <style scopped>
     .home{
+      padding: 20px;
       display: flex;
       flex-direction: column;
     }
 
     .list-pokemons{
-      padding: 5px;
       display: flex;
+      justify-content: center;
       flex-wrap: wrap;
     }
 

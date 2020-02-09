@@ -8258,6 +8258,16 @@ vue@^2.6.11:
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.11.tgz#76594d877d4b12234406e84e35275c6d514125c5"
   integrity sha512-VfPwgcGABbGAue9+sfrD4PuwFar7gPb1yl1UK1MwXoQPAw0BKSqWfoYCT/ThFrdEVWoI51dBuyCoiNU9bZDZxQ==
 
+vuejs-storage@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/vuejs-storage/-/vuejs-storage-3.0.1.tgz#0b1a0b3e9465bac324bf64d1f84523a9d6a9e579"
+  integrity sha512-AIN3j0vtylIoYUz5trXzmFIUbXDMTxcEDWggWtl8Uy6IfiFV7dcwxxwG3UUAtu2z2IEHrEKR5mjBHFCXptN51w==
+
+vuex-class@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/vuex-class/-/vuex-class-0.3.2.tgz#c7e96a076c1682137d4d23a8dcfdc63f220e17a8"
+  integrity sha512-m0w7/FMsNcwJgunJeM+wcNaHzK2KX1K1rw2WUQf7Q16ndXHo7pflRyOV/E8795JO/7fstyjH3EgqBI4h4n4qXQ==
+
 vuex@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/vuex/-/vuex-3.1.2.tgz#a2863f4005aa73f2587e55c3fadf3f01f69c7d4d"
